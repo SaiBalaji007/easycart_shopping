@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easycart</title>
+    <link rel="stylesheet" href="watchdetails.css">
+</head>
+<body>
+
+<section id="header">
+    <a href="#"><img src="C:\Users\balaj\OneDrive\Pictures\newlogo.png" class="logo" alt="Logo"></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="dbw1.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="newlogin.html">Login</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="newcontact.html">Contact</a></li>
+        </ul>
+    </div>
+</section>
+
+    <button class="openbtn" onclick="toggleNav()">☰ </button>
+
+  <!-- Side Navigation -->
+  <div class="sidenav" id="mySidenav">
+    <h3>Categories</h3>
+    <ul>
+      <li><a href="#fashion">Fashion</a></li>
+      <li><a href="#toys">Toys</a></li>
+      <li><a href="#gadgets">Gadgets</a></li>
+      <li><a href="#footwear">Footwear</a></li>
+
+<li><a href="#footwear">Home</a></li>
+<li><a href="#footwear">Login</a></li>
+<li><a href="#footwear">Aboutus</a></li>
+<li><a href="#footwear">contactus</a></li>
+    </ul>
+  </div>
+
+
+<section id="prodetails" class="section-1">
+    <div class="single-pro-image">
+        <img src="data:image/jpeg;base64,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" width="100%" id="mainimg" alt="Product Image">
+        
+    </div>
+
+    <div class="product-details">
+        <h1 class="product-name">NIVI strom Bat</h1>
+        <p class="price">₹1190</p>
+
+          
+             <label for="size">Quantity:</label>
+        <select id="size" name="size">
+            <option value="small">1</option>
+            <option value="medium">2</option>
+            <option value="large">3</option>
+        </select>
+
+        <button class="add-to-cart">Add to Cart</button>
+
+        
+        <div class="product-description">
+            <h3>Product Details:</h3>
+            <p>AN plastic bat used to play cricket with warranty of 1 year . water proof ,light weight.</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="C:\Users\balaj\OneDrive\Pictures\newlogo.png" class="logo">
+        </div>
+        <div class="col">
+            <h3>Office</h3>
+            <p>Jaypee Institute Of Information Technology</p>
+            <p>Noida Sector 62 Block A</p>
+            <p>Uttar Pradesh, PIN 201309, India</p>
+            <p class="email-id">easycart@gmail.com</p>
+            <h4>+91-0123456789</h4>
+        </div>
+        <div class="col">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+               
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:30px; height:30px;">
+                </a>
+             
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:30px; height:30px;">
+                </a>
+               
+                <a href="mailto:easycart@gmail.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" style="width:30px; height:30px;">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="mainshop.js"></script>
+
+</body>
+</html>

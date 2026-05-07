@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500; 600;700; 800; 900&display=swap');
+
+*{
+
+margin: 0;
+
+style.css
+
+font-size: 50px;
+
+padding: 0;
+
+box-sizing: border-box;
+
+font-family: 'Spartan', sans-serif;
+
+}
+
+h1 {
+
+line-height: 64px;
+
+color: #222;
+
+}
+
+h2 {
+
+font-size: 46px; line-height: 54px; color: #222;
+
+}
+
+h4 {
+
+font-size: 20px;
+
+color: #222;
+}
+
+
+
+h6{
+
+font-weight:700;
+
+font-size:12px;
+
+}
+
+p{
+
+font-size:16px;
+color:#465b52;
+margin:15px 0 20px 0;
+}
+
+.section-p1{
+padding :40px 80px;
+
+}
+.section-m1{
+
+margin:40px 0;
+}
+
+body{
+width :100%;
+}
+
+#header{
+display :flex;
+align-items:center;
+justify-content:space-between;
+padding:50px 80 px;
+background:#8f78a8;
+box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+# header a{
+margin-left:20px;
+}
+#navbar{
+  display:flex;
+  align-items :center;
+  justify-content: center;
+}
+#navbar li {
+  list-style:none;
+  padding:0 20px;
+}
+#navbar li a{
+  text-decoration: none;
+  font-size:16px;
+  font-weight:600;
+  color:#1a1a1a;
+  transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+  color:#b9ad26;
+  
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content:"";
+  width:30%;
+  height:2px;
+  background:#b9ad26;
+  position: absolute;
+  bottom:-4px ;
+  left=20px;
+}
+#main {
+  background-image:C:\Users\balaj\OneDrive\Pictures\main class image.jpg;
+  height:90vh;
+  width:100 %;
+back-ground-size :cover;
+
+  background-position:top 25 % right 0;
+}
+#hero {
+    background-image: url("https://i.pinimg.com/736x/59/b5/19/59b519204588defc11c64853504644c1.jpg"); 
+height:90vh;
+width:100%;
+background-size:cover;
+background-position: top 25% right 0;
+padding: 0 80px;
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+justify-content:center;
+    
+}
+#hero h4{
+padding-bottom:15px;
+}
+#hero h1{
+color:#DB9122;
+}
+#hero button{
+background-image:url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/button.png?raw=true");
+background-color:transparent;
+color:#088178;
+border:0;
+padding:14px 80px 14px  65px;
+background-repeat:no-repeat;
+cursor:pointer;
+font-weight:700;
+font-size:15px;
+ }
+
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 250px; 
+  position: fixed;
+  top:80px;
+  left: -250px; 
+  background-color: #8f78a8;
+  padding-top: 20px;
+  transition: 0.3s; 
+}
+
+.sidenav h3{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+}
+
+.sidenav li {
+  padding: 8px;
+  text-align: center;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #575757;
+}
+.openbtn {
+  font-size: 20px;
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 10px;
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.sidenav.open {
+  left: 0; 
+}
+
+.content.open {
+  margin-left: 250px; 
+}
+.section-m1{
+
+margin:40px 0;
+}
+#Category-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("https://wallpaperaccess.com/full/1332281.jpg");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; 
+}
+
+#Category-1 h1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+#Category-1 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-1 h2 span {
+    color: #ef3636;
+}
+
+#Category-1 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px; 
+}
+
+#Category-1 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+#Category-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("https://gumlet-images.assettype.com/afaqs%2F2024-07%2F311267db-f643-4d2a-ba63-e93676485a38%2FPUMA_signs_rising_cricketers_Nitish_K_Reddy_and_Riyan_Parag.jpg?w=1200&auto=format%2Ccompress&ogImage=true");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; 
+}
+
+#Category-2 h1{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+#Category-2 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-2 h2 span {
+    color: #ef3636;
+}
+
+#Category-2 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px; 
+}
+
+#Category-2 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+#Category-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("https://images2.alphacoders.com/649/649977.jpg");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; /
+}
+
+#Category-3 h1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+#Category-3 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-3 h2 span {
+    color: #ef3636;
+}
+
+#Category-3 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px; 
+}
+
+#Category-3 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+#Category-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("http://wallpapercave.com/wp/wp1852950.jpg");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; 
+}
+
+#Category-4 h1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+#Category-4 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-4 h2 span {
+    color: #ef3636;
+}
+
+#Category-4 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px; 
+}
+
+#Category-4 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+#Category-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/40b893162450965.63d63eae3e41a.jpg");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; 
+}
+
+#Category-5 h1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#Category-5 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-5 h2 span {
+    color: #ef3636;
+}
+
+#Category-5 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px; 
+}
+
+#Category-5 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+#Category-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("https://wallpapercave.com/wp/wp1873222.jpg");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; 
+}
+
+#Category-6 h1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#Category-6 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-6 h2 span {
+    color: #ef3636;
+}
+
+#Category-6 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px;/
+}
+
+#Category-6 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+#Category-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    text-align: right; 
+    background-image: url("https://wallpapercave.com/wp/wp4061048.jpg");
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px; 
+}
+
+#Category-7 h1 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#Category-7 h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#Category-7 h2 span {
+    color: #ef3636;
+}
+
+#Category-7 .btn {
+    background-color: #A9D797; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+    margin-top: 20px; 
+}
+
+#Category-7 .btn:hover {
+    background-color: #e5533f; 
+    transform: scale(1.1); 
+}
+footer {
+    background-color: #8f78a8; 
+    color: #ecf0f1; 
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+footer .col {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+footer .col h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black; 
+}
+
+footer .col p,
+footer .col ul {
+    margin: 0 0 10px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+footer .col ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .col ul li {
+    margin-bottom: 8px;
+}
+
+footer .col ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+footer .col ul li a:hover {
+    color: #e74c3c; 
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    transform: scale(1.1); 
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer .logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+footer .email-id {
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer h4 {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column; 
+    }
+
+    footer .col {
+        flex: 1 1 100%;
+        text-align: center; 
+    }
+
+    footer .social-icons {
+        justify-content: center;
+    }
+}
